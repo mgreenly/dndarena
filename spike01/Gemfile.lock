@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     dndarena (0.1.0)
-      logger (~> 1.6, >= 1.6.0)
+      logger (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
@@ -71,13 +71,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  byebug
+  byebug (~> 11.1)
   dndarena!
-  rake (~> 13.0, >= 13.2.1)
-  rspec (~> 3.0, >= 3.13.0)
-  rubocop (~> 1.21, >= 1.64.0)
-  rubocop-rake
-  rubocop-rspec
+  rake (~> 13.0)
+  rspec (~> 3.0)
+  rubocop (~> 1.21)
+  rubocop-rake (~> 0.6)
+  rubocop-rspec (~> 2.29)
 
 BUNDLED WITH
    2.5.9

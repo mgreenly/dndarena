@@ -15,5 +15,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency 'logger', '~> 1.6', '>= 1.6.0'
+  spec.add_dependency 'logger', '~> 1.6'
 end
