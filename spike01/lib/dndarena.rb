@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "dndarena/version"
+require 'logger'
+
+require 'dndarena/version'
+require 'dndarena/dice'
 
 module Dndarena
   class Error < StandardError; end
