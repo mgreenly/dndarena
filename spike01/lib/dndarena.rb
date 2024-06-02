@@ -4,6 +4,9 @@ require 'logger'
 
 require 'dndarena/version'
 require 'dndarena/dice'
+require 'dndarena/creature'
+require 'dndarena/arena'
+require 'dndarena/simulation'
 
 module Dndarena
   class Error < StandardError; end
