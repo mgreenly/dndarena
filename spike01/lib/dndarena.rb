@@ -5,6 +5,7 @@ require 'logger'
 require 'dndarena/version'
 require 'dndarena/dice'
 require 'dndarena/creature'
+require 'dndarena/team'
 require 'dndarena/arena'
 require 'dndarena/simulation'
 
